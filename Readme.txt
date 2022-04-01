@@ -2,8 +2,8 @@ Close approach data test assignment
 
 First step is to build container by using command 'docker build -f ./Dockerfile -t close_approach_robot .'
 When contained has been build it can be operated with 'docker-compose up' and 'docker-compose down' commands.
-Giving command 'docker-compose up' should run test cases in the test suite.
-Operating system needs to be Windows  
+Giving command 'docker-compose up' should run test cases in the test suite. Output directory needs to be 
+created before first run, see folder structure at the end of the file. Operating system needs to be Windows  
 
 Used docker container uses local drive as a file storage and only executes test cases. 
 When cases has been executed results will be written to the local drive.
