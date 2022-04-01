@@ -1,8 +1,6 @@
 ###
-# Image can be started manually:
-# docker run --rm -ti --network=host -v "./output:/output" -v "./suites:/suites" -v "./scripts:/scripts" -v "./resources:/resources" close_approach_robot bash
-#
-# Or by using using docer-compose (see commands below):
+# Create image using command docker build -f ./Dockerfile -t close_approach_robot .
+# When creted docker compose commands can be used 
 # docker-compose up
 # docker-compose down
 ###
